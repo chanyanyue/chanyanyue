@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: rgb(35, 28, 26, 0.85);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+h1 {
+  color: white;
+  position: absolute;
+  left: 120px;
+  top: 0;
+  line-height: 80px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 a:hover {
+  text-decoration: underline;
+}
+header ul a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+}
+header ul {
+  position: absolute;
+  right: 5vw;
+  top: 0;
+  line-height: 80px;
+}
+header li {
+  display: inline;
+  margin-right: 4vw;
+}
+.first {
+  background-color: azure;
+  color: white;
+  height: 95vh;
+  background-image: url("D:/VSCode/tjj792/image/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first h2 {
+  font-size: 50px;
+}
+.first p {
+  margin: 30px 0;
+}
+.first a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #acacac;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mates a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+footer a:hover,
+.mates a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: grey;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+footer a {
+  font-size: 20px;
+  color: rgb(216, 240, 6);
+  text-decoration: none;
+}
+.info {
+  background-color: antiquewhite;
+  display: flex;
+  padding: 100px 50px 30px 50px;
+}
+.himg {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 100px 0 0;
+}
+.himg img {
+  border-radius: 50px;
+}
+.himg h2 {
+  margin: 10px 0;
+}
+.info_1 img {
+  max-width: 20%;
+  max-height: 20%;
+}
+.honor li,
+.info_1 li {
+  display: flex;
+  padding: 10px 0;
+}
+.info_1 h3 {
+  padding: 20px 0 30px 0;
+}
+.honor h3 {
+  background-color: gold;
+  padding: 20px 50px;
+}
+.honor ul {
+  background-color: rgb(250, 242, 194);
+  padding: 0 50px;
+}
+.honor li:hover {
+  background-color: rgb(247, 236, 236);
+}
+.equip h3 {
+  padding: 20px 50px;
+  background-color: #f5f2f2;
+}
+.equip ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.equip img {
+  border-radius: 20px;
+}
+.intro h3 {
+  padding: 20px 50px;
+  background-color: #f5f2f2;
+}
+.intro p {
+  padding: 20px 50px;
+  line-height: 30px;
+}
