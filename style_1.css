@@ -18,17 +18,26 @@ h1 {
   display: flex;
   justify-content: center;
 }
+main {
+  background-image: url("image/宿舍主页.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 main ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin: 50px 100px;
+}
+main li {
+  margin: 67px;
+  padding: 10px;
 }
 main a {
   color: black;
   padding: 10px;
-  font-size: 30px;
+  font-size: 40px;
   border: 1px solid black;
   border-radius: 20px;
   text-decoration: none;
